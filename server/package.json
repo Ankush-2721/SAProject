@@ -1,0 +1,17 @@
+{
+  "name": "qpe_",
+  "version": "1.0.0",
+  "description": "Tekhnologia QPE Project",
+  "main": "index.js",
+  "scripts": {
+    "start": "concurrently \"npm run server\" \"npm run client\"",
+    "server": "cd QPE_Backend_Code && npm start",
+    "client": "cd QPE_Frontend_Code && npm start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}

@@ -1,0 +1,751 @@
+.image1 {
+    position: absolute;
+    top: 0%;
+    right: 0%;
+}   
+
+.box-main {
+    display: flex;
+    align-items: center;
+    color: black;
+    left: 121px;
+    margin: auto;
+    height: 80%;
+    padding-left: 6%;
+    padding-top: 10%;
+}
+
+.firsthalf {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.text-big {
+    font-size: 42px;
+    color: #545454;
+}
+ 
+.text-small {
+    padding-left: 12px;
+    font-size: 26px;
+    color: #6F6F6F;
+}
+
+.first{
+    border: none;
+    padding-top: 15%;
+    text-align: center;
+    font-size: 2.2cap;
+    color: #545454;   
+}
+
+
+.second{
+    padding-top: 2%;
+    text-align: center;
+    color: #6F6F6F;
+    font-size: 2.5cap;
+}
+
+
+// /* For mobile screens */
+// @media only screen and (max-width: 768px) {
+//     .box-main {
+//         flex-direction: column;
+//         height: auto;
+//     }
+    
+//     .text-big {
+//         font-size: 32px;
+//     }
+    
+//     .text-small {
+//         font-size: 20px;
+//     }
+    
+//     .first {
+//         font-size: 1.8rem;
+//     }
+    
+//     .second {
+//         font-size: 2.2rem;
+//     }
+// }
+
+// /* For laptop/desktop screens */
+// @media only screen and (min-width: 769px) {
+//     .box-main {
+//         padding-left: 6%;
+//         padding-top: 10%;
+//         width: 50%; /* Adjust according to your layout */
+//     }
+    
+//     .text-big {
+//         font-size: 42px;
+//     }
+    
+//     .text-small {
+//         font-size: 26px;
+//     }
+    
+//     .first {
+//         font-size: 2.2rem;
+//     }
+    
+//     .second {
+//         font-size: 2.5rem;
+//     }
+// }
+
+.heading {
+    padding-top: 10%;
+    padding-left: 10%;
+    color: #545454; 
+    font-size: 2.5cap;  
+
+}
+
+.content {
+    padding-top: 3%;
+    color: #6F6F6F;
+    font-size: 1.3cap;
+}
+
+
+.flex {
+    display: flex;
+    
+}
+
+.left-component { 
+    padding-top: 8%;
+    float: left; 
+    width: 50%; 
+} 
+   
+.right-component { 
+    float: right; 
+    width: 50%; 
+} 
+
+.middle-component {
+    float: center;
+}
+
+.left-component img {
+    padding-left: 10%;
+    width: 50%;
+    height: 70%;
+}
+
+.font{
+    font-size: 230%;
+}
+
+.padding{
+    padding-top: 12%;
+}
+
+.font h3{
+    color: #545454;
+    font-weight: 600;
+}
+
+.padding ul{
+    padding-left: 3%;
+    padding-top: 5%;
+}
+
+.font ul{
+    color:#6F6F6F;
+    font-weight: 300;
+}
+
+.image4 {
+    background-image: url(../assets/images/Home/image4.png);
+    background-repeat: no-repeat;
+    /* background-size: 900px 1550px; */
+    background-size: 900px ;
+    /* width: 1450px; */
+    height: 2050px;
+
+}
+
+.image5 {
+    padding-top: 10%;
+    padding-left: 8%;
+}
+
+
+.p {
+    padding-top: 12%;
+    padding-left: 12%;
+}
+
+.p ul{
+    padding-left: 2%;
+}
+
+
+
+.middle h3 {
+    padding-left: 20%;
+    padding-top: 55%;
+}
+
+.middle p {
+    padding-left: 30%;
+    padding-top: 3%;
+}
+
+.middle button{
+    margin-left: 40%;
+}
+
+.mid{
+    padding-left: 35%;
+    padding-top: 10%;
+    color: #545454; 
+    font-size: 3.3cap;
+}
+.mid-para{
+    color: #6F6F6F;
+    padding-left: 36%;
+    padding-top: 1%;
+    font-size: 2cap;
+
+}
+
+.image6 {
+    padding-left: 10%;
+    padding-top: 3%;
+}
+
+.image7 {
+    padding-left: 15%;
+    padding-top: 3%;
+}
+
+.image8 {
+    padding-right: 0%;
+    padding-left: 76.3%;
+    position: absolute;
+}
+
+.m{
+    padding-left: 30%;
+    padding-top: 8%;
+    font-size: 40px;
+    color: #545454;
+}
+.md{
+    color: #6F6F6F;
+    padding-left: 16%;
+    padding-top: 1%;
+    font-size: 30px;
+}
+
+.small-box {
+    background-color: #DFE7FD61;
+    border-radius: 73px;
+    box-shadow: 0px 10px 5px -5px #00000040;
+    width: 400px;
+    height: 300px;
+    padding: 2%;
+    margin-top: 5%;
+    margin-left: 100px;
+    position: relative;
+}
+.small-box h3 {
+    /* margin-left: 37%; */
+    text-align: center;
+    font-size: 30px;
+    color: #545454;
+}
+
+.small-box ul {
+    padding-top: 8%;
+    padding-left: 7%;
+    color: #6F6F6F;
+    font-size: 25px;
+}
+
+.small-box p {
+    color: #545454;
+    font-size: 35px;
+    padding-left: 80%;
+    font-weight: 500;
+}
+
+// .accordion {
+//     background-color: #DFE7FD61;
+//     color: #6F6F6F;
+//     cursor: pointer;
+//     padding-top: 2%;
+//     padding-left: 4%;
+//     padding-bottom: 2%;
+//     width: 100%;
+//     text-align: left;
+//     border: none;
+//     outline: none;
+//     transition: 0.4s;
+//     font-size: 30px;
+
+//   }
+
+.accordion {
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+.accordion h3 {
+    margin-top: 10%;    
+}
+
+
+.appfooter{
+    margin-top: 5%;
+    margin-left: 13%;
+}
+
+
+.footer-box {
+    background-color: #fff;
+    border-radius: 73px;
+    width: 300px;
+    height: 250px;
+    margin-top: 10%;
+    margin-left: 2%;
+    position: relative;
+    text-align: center;
+    padding-top: 3%;
+}
+
+.footer-form {
+    margin-right: 10%;
+    // text-align: center;
+}
+
+.footer-form h1 {
+    margin-top: 3%;
+    text-align: center;
+}
+
+.footer-form div {
+    margin-left: 10%;
+}
+
+
+
+// /* For mobile devices */
+// @media only screen and (max-width: 768px) {
+//     .appfooter {
+//         margin-top: 3%;
+//         margin-left: 5%;
+//     }
+    
+//     .footer-box {
+//         width: 90%;
+//         margin: 5% auto;
+//         border-radius: 30px;
+//     }
+    
+//     .footer-form {
+//         margin: 0 auto;
+//         width: 80%;
+//     }
+// }
+
+// /* For laptops and larger screens */
+// @media only screen and (min-width: 1024px) {
+//     .appfooter {
+//         margin-top: 5%;
+//         margin-left: 13%;
+//     }
+    
+//     .footer-box {
+//         width: 300px;
+//         margin-top: 10%;
+//         margin-left: 2%;
+//         border-radius: 73px;
+//     }
+    
+//     .footer-form {
+//         margin-right: 10%;
+//     }
+// }
+
+
+.defaultcolor {
+    color: #1D60AE;
+}
+
+.borderRadius {
+    border-radius: 25px;
+}
+
+.maxcard {
+    max-width: 600px;
+}
+
+.padRight {
+    padding-right: 0%;
+}
+
+.padLeft {
+    padding-left: 0%;
+}
+
+// Login
+
+// header
+.header {
+    box-shadow: #00000040 2px 2px;
+}
+
+// breadcrumb
+.b-color {
+    color: black;
+}
+
+.afterlogin {
+    text-decoration-line: none;
+    text-align: center;
+    margin: 5%;
+}
+
+//all logout and deactivate
+.cardwidth {
+    max-width: 600px;
+    border-radius: 30px;
+}
+
+
+@media (min-width: 300px) and (max-width: 768px) {
+    .show-on-mobile {
+      display: flex;
+    }
+
+    .show-on-desktop {
+        display: none;
+    }
+
+}
+
+@media (min-width: 769px) {
+    .show-on-desktop {
+    display: flex;
+    }
+
+    .show-on-mobile {
+        display: none;
+    }
+
+}
+
+
+// Head Admin Content
+
+
+.h-a-contentSchool {
+    background-color: #FD7D7D;
+    border-color: #FD7D7D;
+    color: white;
+}
+
+.h-a-contentSchool:hover {
+    background-color: #FD7D7D;
+    border-color: #FD7D7D;
+}
+
+
+
+.h-a-contentAdmin {
+    margin-left: 2%;
+    background-color: #7D99FD;
+    border-color: #7D99FD;
+    color: white;
+}
+
+.h-a-contentAdmin:hover {
+    background-color: #7D99FD;
+    border-color: #7D99FD;
+}
+
+// Admin Content
+
+.a-content {  // also add and school details
+    border: none;
+    color: white;
+}
+
+.a-content-title { //also school details
+    margin-top: 20%;
+}
+
+// @media (min-width: 767px) and (max-width: 985px) {
+//     .a-content-title {
+//         margin-top: 10%;
+//     }
+// }
+
+@media (min-width: 317px) and (max-width: 767px) {
+    .a-content-title {
+        margin-top: 30%;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+    .a-content-title {
+        margin-top: 10%;
+    }
+}
+@media  (max-width: 1024px) {
+    .sub-cls-teacher {
+        margin-top: 0%;
+    }
+}
+
+.a-content-half {
+    margin-left: 16%;
+}
+
+@media only screen and (max-width: 767px) {
+    .a-content-half {
+        margin-left: 0%;
+    }
+  }
+
+
+// School Details
+
+.a-content-half1 {
+    margin-left: 10%;
+}
+
+@media only screen and (max-width: 767px) {
+    .a-content-half1 {
+        margin-left: 0%;
+    }
+  }
+
+// Admin Add
+
+
+.add-div {         // also (schooldetails, teacherdetails)
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.col-t {
+    width: 20%;
+}
+
+.add-mar-left {
+    margin-left: 10%;
+}
+
+@media screen and (max-width:767px) {
+    .add-mar-left {
+        margin-left: 0%;
+    }
+}
+
+// .button-card{
+//     background-color: white;
+//     border: none;
+// }
+
+// .button-card:hover, .button-card:active {
+//     background-color: white;
+//     border: none;
+// }
+
+.mar-right {
+    margin-right: 3%;
+}
+
+.card {
+    border: none;
+}
+
+// .add-half {
+//     margin-top: 6%;
+// }
+
+// .add-half1 {
+//     margin-left: 10%;
+// }
+
+// .add-half1-size {
+//     min-width: 55%;
+// }
+
+// Admin Leave Section
+.ls-grp {
+    float: right;
+}
+
+.ls-approval {
+    background-color: white;
+    border: none;
+    color: green;
+    text-decoration: none;
+}
+
+
+.ls-reject {
+    margin-left: 10%;
+    background-color: white;
+    border: none;
+    color: red;
+    text-decoration: none;
+
+}
+
+.ls-card {
+    margin-top: 2%;
+}
+
+//  Admin Profile
+
+.btn-gap {
+    margin-left: 2%;
+}
+
+// Admin Profile
+
+.logout-card {
+    width: 38rem;
+    height: 20rem;
+}
+
+.logout-content {
+    margin-top: 8%;
+}
+
+.log-mar {
+    margin-top: 2%;
+}
+
+// Teacher
+
+.teacher-content {
+    width: 80%;
+    height: 150%;
+    background-color: white;
+    border: none;
+    padding-top: 20%;
+    // margin-top: 5%;
+}
+
+.teacher-content:hover{
+    background-color: white;
+    color: white;
+}
+
+
+
+// .teacher-content {
+//     text-decoration-line: none;
+//     text-align: center;
+//     margin: 10%;
+// }
+
+@media (max-width: 767px) {
+    .teacher-content {
+        padding-top: 5%;
+    }
+}
+
+// .teacher-content:focus {
+//     background-color: white;
+//     color: white;
+// }
+
+// .teacher-content:active {
+//     background-color: white;
+//     color: white;
+// }
+
+.teacher-mar {
+    margin-top: 3%;
+}
+
+// MultiSekect
+
+// .multi-select {
+//     border-radius: 25px;
+//     font-size: 15px;
+//     // min-width: 120px;
+//     background-color: white;
+//     border-color: black;
+//   }
+
+//   .multi-select .placeholder {
+//     border: 1px #ddd solid;
+//     background-color: white;
+//     border-radius: 5px;
+//     height: 21px;
+//     font-size: 13px;
+//     color: rgb(37, 35, 35);
+//     font-weight: 500;
+//     cursor: pointer;
+//     padding: 5px 20px;
+//   }
+              
+//   .multi-select options {
+//     border: 1px solid #ddd;
+//     background: white;
+//     color: black;
+//     max-height: 300px;
+//     overflow: auto;
+//     border-radius: 5px;
+//   }
+              
+//   .multi-select options option {
+//     display: block;
+//     color: rgb(37, 35, 35);
+//     font-weight: 500px;
+//     font-size: 14px;
+//     margin-top: 0;
+//     padding-top: 2px;
+//   }
+              
+//   .multi-select options option:hover {
+//     background-color: #1D60AE;
+//     color: white;
+//   }
+
+// .multi-select .chips {
+//     background: '#1D60AE'
+//   }
+//   .multi-select .searchBox {
+//     border-radius: '25px',
+//   }
+
+
+
+.table {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    height: 100vh;
+}
+
+.timetable-container {
+    text-align: center;
+    margin: 0 auto;
+  }
+  
+  .timetable {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  .timetable th, .timetable td {
+    padding: 8px;
+    border: 1px solid #ddd;
+  }
